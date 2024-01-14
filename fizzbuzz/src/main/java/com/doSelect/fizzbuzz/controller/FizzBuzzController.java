@@ -23,14 +23,7 @@ public class FizzBuzzController {
 	
 	@Autowired
 	private FizzBuzzService fizzBuzz;
-	
 
-	@GetMapping("/hello")
-	public String hello(){
-		
-		
-		return "HI";
-	}
 	 
 	 @RequestMapping("/getFizzBuzzList")
 		public List<String> getFizzBuzzList(@RequestParam(value="num1") int num1,
