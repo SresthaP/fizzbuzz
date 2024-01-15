@@ -17,7 +17,6 @@ public class RequestTrackingInterceptor implements HandlerInterceptor {
        
         String requestInfo = request.getMethod() + " " + request.getRequestURI();
         satisticEndPointController.trackHTTPRequest(requestInfo);
-
         return true;
     }
 }
