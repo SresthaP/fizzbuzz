@@ -11,4 +11,3 @@
 	ii) "/statistics" : No input parameters for statistics endpoint. Return Map<String, Object> to provide the parameters corresponding to the most used request and           number 
 		of hits for the most frequent request.
 
-4) Access Token to be used "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" for future developement.
